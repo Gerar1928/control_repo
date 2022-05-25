@@ -1,5 +1,5 @@
 node default {
-  file { '/home/vagrant'
+  file { '/home/vagrant/test.txt'
     ensure  => file
     content => 'hello world'
   }
