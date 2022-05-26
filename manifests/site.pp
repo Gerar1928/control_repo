@@ -1,5 +1,5 @@
 node default {
-  file { '/root/test':
+  file { '/root/README':
     ensure  => file,
     content => 'hello world',
     owner   => 'root',
